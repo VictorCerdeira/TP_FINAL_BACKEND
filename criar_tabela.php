@@ -30,3 +30,5 @@ $queryCriaTabelaEstoque = "CREATE TABLE if not exists estoque (
       )";
 
 $pdo->query($queryCriaTabelaEstoque);
+
+?>
