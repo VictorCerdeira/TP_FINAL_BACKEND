@@ -1,3 +1,3 @@
 # TP_FINAL_BACKEND
 
-Grupo: Vitor Santiago e Carlos Magno
+Grupo: Vitor Santiago & Carlos Magno & Victor Cerdeira
