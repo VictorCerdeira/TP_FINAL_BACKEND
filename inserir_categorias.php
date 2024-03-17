@@ -1,10 +1,10 @@
-<?php
-     echo $_GET["nome"];
+<?php 
+    echo $_GET["nome"];
 
-     $pdo = new PDO("sqlite:estoque.db");
+    $pdo = new PDO("sqlite:estoque.db");
 
-     $queryInsereCategoria = "INSERT INTO categorias (nome)
-     VALUES (\"".$_GET["nome"]."\")";
+    $queryInsereCategoria = "INSERT INTO categorias (nome)
+	VALUES (\"".$_GET["nome"]."\")";
 
-     $pdo ->query($queryInsereCategoria);
+    $pdo->query($queryInsereCategoria);
 ?>
